@@ -100,6 +100,11 @@ h3 {
 	line-height: 34px;
 }
 
+.p3 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
 .row {
 	width: 100%;
 	line-height: 2.5;
@@ -325,7 +330,7 @@ img.pull-left {
 
 .page .sub {
 	width: 33%;
-	margin: 0 8px;
+	margin: 0 10px;
 	position: relative;
 }
 .sub img {
@@ -483,6 +488,9 @@ a.btn-trial:active {
 		position: relative;
 		bottom: -1rem;
 	}
+	.p1 .headline {
+		bottom: -8.25rem;
+	}
 	.p1 .headline span { display: inline;  }
 	.page .headline .break { padding: 0;  }
 	.p2 {
@@ -494,7 +502,8 @@ a.btn-trial:active {
 	}
 	.p2:before {
 		font-size: 60px;
-		top: 5rem;
+		/*top: 5rem;*/
+		line-height: 812px;
 	}
 	.p2 h2 {
 		position: static;
@@ -506,6 +515,7 @@ a.btn-trial:active {
 	ol {
 		font-size: 13px;
 		line-height: 23px;
+		padding-right: 10px;
 	}
 	ol li {
 		margin-bottom: 0.25rem;
@@ -548,7 +558,7 @@ a.btn-trial:active {
 		font-size: 65px;
 		position: relative;
 		left: 9px;
-		top: 40vh;
+		top: 35vh;
 	}
 	.p6 img {
 		width: 162px;
@@ -560,17 +570,34 @@ a.btn-trial:active {
 	.p7 .text-center {
 		font-size: 16px;
 		line-height: 27px;
-		top: -4rem;
+		top: -3rem;
+		margin-right: 2rem;
 	}
 	.p7:before {
 		font-size: 60px;
 		content: 'Snow Rose Organic';
+		top: 2.1rem;
+	}
+	.p8 h2,
+	.p9 h2 {
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.p8 h2:after {
+		content: '01';
+		font-size: 30px;
+		line-height: 27px;
+		float: right;
 	}
 	.p8, .p9 {
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: flex-start;
 		min-height: 100%;
+	}
+	.p8 .img_8_2,
+	.p8 .img_8_3 {
+		max-height: 141px;
 	}
 	.p8 .img_8_1 {
 		position: relative;
@@ -595,15 +622,26 @@ a.btn-trial:active {
 		margin-top: 0;
 		margin-right: 8px;
 	}
+	.p9 h2:after {
+		content: '02';
+		font-size: 30px;
+		line-height: 27px;
+		float: right;
+	}
+	.p9 {
+		padding: 0 4px 36px;
+	}
 	.p9 .sub:nth-child(2),
 	.p9 .sub:nth-child(3) {
-		height: 138px;
+		width: calc(50% - 8px);
 		padding-top: 0;
+		margin: 0 4px;
+		max-height: 138px;
 	}
 	.p9 .sub img {
 		object-fit: cover;
 		object-position: top center;
-		height: 138px;
+		height: 142px;
 		padding: 0 !important;
 	}
 	.p9 .sub1 {
@@ -613,7 +651,7 @@ a.btn-trial:active {
 		padding-right: calc(50% - 0px);
 		background-image: url('../images/m/ax1bm-4n8bu.webp');
 		background-size: 50%;
-		background-position: 100% 6rem;
+		background-position: 100% 5rem;
 		background-repeat: no-repeat;
 	}
 	.p9 .number:before {
@@ -624,7 +662,6 @@ a.btn-trial:active {
 	}
 	.p10 {
 		padding: 26px;
-
 	}
 	.p10 .headline {
 		font-size: 120px;
@@ -632,6 +669,9 @@ a.btn-trial:active {
 	}
 	.p10 .sub {
 		width: 100%;
+	}
+	.p10 .sub h3 {
+		margin-top: 1.5rem;
 	}
 	.p10 img {
 		max-width: 5.5rem;
@@ -643,9 +683,15 @@ a.btn-trial:active {
 	}
 	.p11 .headline {
 		position: relative;
-		bottom: -5rem;
+		bottom: -7rem;
 	}
-
+	.btn-trial {
+		box-sizing: border-box;
+		width: 280px;
+		height: 48px;
+		line-height: 48px;
+		background-color: rgba(255,255,255,.6);
+	}
 }
 
 /*
