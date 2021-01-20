@@ -69,6 +69,7 @@ nav a.active {
 }
 .half {
 	width: 50%;
+	box-sizing: border-box;
 }
 
 /* Default */
@@ -624,6 +625,9 @@ a.btn-trial:active {
 	.half {
 		width: 100%;
 	}
+	.half h3 {
+		padding-left: 10px;
+	}
 	.p3 {
 		padding-bottom: 1rem;
 	}
@@ -834,39 +838,19 @@ a.btn-trial:active {
 		z-index: 2;
 		padding-bottom: 16px;
 	}
-}
 
-/*
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
+	/* 中文版的微調 */
+	.zh-tw .p3,
+	.zh-tw .p4 {
+		min-height: 0;
+	}
+	.zh-tw .modal {
+		min-height: fit-content;
+		top: 50%;
+		left: calc(50% - 10px);
+		transform: translate(-50%, -50%);
+	}
+	.zh-tw .modal .modal-ft {
+		position: static;
+	}
 }
-*/
-
-/* TMP */
-/*
-.container {
-	counter-reset: page;
-}
-.page {
-
-}
-.page:after {
-	position: absolute;
-	right: 1rem;
-	top: 1rem;
-	counter-increment: page;
-	content: "Page: " counter(page);
-	font-size: 3rem;
-	opacity: 0.5;
-}
-*/
-
-
