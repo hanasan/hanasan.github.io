@@ -509,6 +509,9 @@ a.btn-trial:active {
 		position: static;
 		margin-bottom: 3rem;
 	}
+	.p2 .pull-right {
+		width: 100%;
+	}
 	.page {
 		flex-direction: column;
 	}
