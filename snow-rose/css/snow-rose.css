@@ -204,7 +204,7 @@ li {
 }
 
 .p1, .p7, .p11 {
-	background-image: url('../images/PastedGraphic-9@2x.webp');
+	background-image: url('/snow-rose/images/PastedGraphic-9@2x.webp');
 	background-size: 388px 640px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -329,7 +329,7 @@ img.pull-left {
 }
 
 .p7 {
-	background-image: url("../images/PastedGraphic-2@2x.webp");
+	background-image: url("/snow-rose/images/PastedGraphic-2@2x.webp");
 }
 .p7 .text-center {
 	font-size: 28px;
@@ -366,7 +366,7 @@ img.pull-left {
 	height: 276px;
 	z-index: -1;
 
-	background-image: url("../images/PastedGraphic-5.png");
+	background-image: url("/snow-rose/images/PastedGraphic-5.png");
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: 186px 273px;
@@ -376,7 +376,7 @@ img.pull-left {
 }
 
 .p11 {
-	background-image: url("../images/IMG_2036@2x.webp");
+	background-image: url("/snow-rose/images/IMG_2036@2x.webp");
 }
 
 .p11 .headline .break {
@@ -481,7 +481,7 @@ a.btn-trial:active {
 	position: absolute;
 	right: 1rem;
 	top: 1rem;
-	background-image: url('../images/icon_cross.svg');
+	background-image: url('/snow-rose/images/icon_cross.svg');
 	background-size: 24px;
 	font-size: 0;
 	text-indent: 999em;
@@ -564,7 +564,7 @@ a.btn-trial:active {
 		line-height: 23px;
 	}
 	.p1 {
-		background-image: url('../images/m/accs6-811kh.webp');
+		background-image: url('/snow-rose/images/m/accs6-811kh.webp');
 		background-size: cover;
 	}
 	.page .ver {
@@ -671,7 +671,7 @@ a.btn-trial:active {
 	.p6 .img2 {
 		float: right;
 	}
-	.p7 { background-size: cover; background-image: url('../images/m/atpml-qgdbh.webp'); background-position: top center; }
+	.p7 { background-size: cover; background-image: url('/snow-rose/images/m/atpml-qgdbh.webp'); background-position: top center; }
 	.p7 .text-center {
 		font-size: 16px;
 		line-height: 27px;
@@ -754,7 +754,7 @@ a.btn-trial:active {
 		padding-left: 0;
 		width: calc(100% - 20px);
 		padding-right: calc(50% - 0px);
-		background-image: url('../images/m/ax1bm-4n8bu.webp');
+		background-image: url('/snow-rose/images/m/ax1bm-4n8bu.webp');
 		background-size: 50%;
 		background-position: 100% 5rem;
 		background-repeat: no-repeat;
@@ -783,7 +783,7 @@ a.btn-trial:active {
 		margin-right: 4.5rem;
 	}
 	.p11 {
-		background-image: url('../images/m/anh07-etemn.webp');
+		background-image: url('/snow-rose/images/m/anh07-etemn.webp');
 		background-size: cover;
 	}
 	.p11 .headline {
@@ -852,5 +852,8 @@ a.btn-trial:active {
 	}
 	.zh-tw .modal .modal-ft {
 		position: static;
+	}
+	.zh-tw .modal-ft .btn-trial span:after {
+		right: -1.25rem;
 	}
 }
